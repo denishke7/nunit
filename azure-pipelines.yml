@@ -1,8 +1,5 @@
-pr: [ '*' ]
-
 trigger:
--master
-
+- main
 
 jobs:
 
