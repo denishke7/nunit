@@ -27,7 +27,3 @@ jobs:
       PathtoPublish: test-results
       ArtifactName: Test results (Windows)
 
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'NUnit'
-    testResultsFiles: '**/TEST-*.xml'
